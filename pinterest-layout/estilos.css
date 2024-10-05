@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.layout {
+  border: 2px solid red;
+  height: 1700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tarjeta {
+  height: 200px;
+  width: 250px;
+  border: 2px solid;
+}
+
+.medium {
+  height: 350px;
+}
+
+.large {
+  height: 450px;
+}
+
