@@ -1,0 +1,15 @@
+/* *  {
+  background-color: pink;
+} */
+
+.button {
+  height: 40px;
+  width: 100px;
+  border: 1px solid blue;
+  background-color: aquamarine;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

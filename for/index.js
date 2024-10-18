@@ -51,6 +51,5 @@ if (palindromo === true) {
 // }
 
 for (i = 2; i <= 100; i += 2) {
-  console.log(i);
-  
+  console.log(i); 
 }
