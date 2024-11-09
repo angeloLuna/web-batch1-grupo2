@@ -1,0 +1,7 @@
+.personajes-layout-container {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 20px
+}

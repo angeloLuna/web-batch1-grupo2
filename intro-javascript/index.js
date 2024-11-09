@@ -115,3 +115,9 @@ switch (personas) {
       console.log('Mostrar paquete familiar')
     break;
 }
+
+[
+  {
+    
+  }
+]

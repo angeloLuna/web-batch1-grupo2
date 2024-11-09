@@ -1,0 +1,18 @@
+.element {
+  border: 2px solid;
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.element-active {
+  height: 400px;
+  width: 600px;
+  background-color: pink;
+  transition: all 1s;
+}
+
+.transition {
+  transition: all 1s;
+}
