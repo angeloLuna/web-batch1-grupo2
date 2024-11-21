@@ -1,5 +1,5 @@
 import './PersonajesLayout.css'
-import Tarjeta from '../Tarjeta'
+import Tarjeta from '../../components/Tarjeta'
 
 
 const PersonajesLayout = ({handleClick, mostrarTarjeta, data}) => {

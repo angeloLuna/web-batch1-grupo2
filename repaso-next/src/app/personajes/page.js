@@ -1,7 +1,8 @@
 'use client'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import PersonajesLayout from '../components/layouts/PersonajesLayout'
+import PersonajesLayout from './PersonajesLayout'
+
 
 const Personajes = () => {
 
@@ -26,7 +27,11 @@ const Personajes = () => {
   
   // console.log(data)
   return (
-    <PersonajesLayout handleClick={handleClick} mostrarTarjeta={mostrarTarjeta} data={data} />
+    <PersonajesLayout
+      handleClick={handleClick}
+      mostrarTarjeta={mostrarTarjeta}
+      data={data}
+    />
   )
 }
 

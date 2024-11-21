@@ -1,10 +1,8 @@
-import Image from "next/image";
-import Personajes from "./pages/Personajes";
 
 export default function Home() {
   return (
     <div >
-      <Personajes />
+      <h1>Este es el home de mi proyecto</h1>
     </div>
   );
 }
